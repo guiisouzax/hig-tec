@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&display=swap');
 
 :root {
-    --cor-primaria: #000;
-    --cor-secundaria: #f6f6f6;
-    --cor-terciaria: #00ffd5bd;
+    --cor-background: #EFF4F8;
+    --cor-primaria: #427C8A;
+    --cor-secundaria: #000000;
+    --cor-terciaria: #ffffff;
 }
 
 
@@ -18,12 +19,13 @@ body {
     width: 100%;
     padding: 5px;
     min-height: 100vh;
-    background-color:var(--cor-primaria);
-    color: var(--cor-secundaria);
+    background-color:var(--cor-background);
+    color: #1a3996;
+    
 }
 
 .titulo-destaque {
-    color: var(--cor-terciaria);
+    color: #000000; 
 }
 
 .apresentacao {
@@ -50,6 +52,8 @@ body {
 .apresentacao__conteudo__texto {
     font-size: 24px;
     font-family: 'Montserrat', sans-serif;
+    color: #000000;
+    
 }
 
 .apresentacao__links {
@@ -63,16 +67,17 @@ body {
 .apresentacao__links__link {
     justify-content: center;
     gap: 17px;
-    background-color: var(--cor-terciaria);
+    background-color: var(--cor-primaria);
     display:flex;
     width: 280px;
     text-align: center;
     border-radius: 25px;
-    border: 2px solid #000000;
+    border: 2px solid #ffffff;
     font-size: 24px;
     padding: 21.5px 0;
     text-decoration: none;
-    color: var(--cor-primaria);
+    color: #000000;
+    
     font-family:'Krona One', sans-serif;
     
 }
@@ -84,7 +89,7 @@ body {
     left: 90px;
     top: 70%;
     border-radius: 50%;
-    border: 5px solid #000000;
+    border: 5px solid #EFF4F8;
     
    
 }
@@ -116,14 +121,14 @@ body {
 }
 
 .apresentacao__links__link:hover {
-    background-color: rgb(0, 255, 179);
+    background-color: #ADDCED;
     padding: 3%;
 }
 
 .rodape {
     font-family: 'Krona One', sans-serif;
-    background-color: var(--cor-terciaria);
-    color: var(--cor-primaria);
+    background-color: var(--cor-primaria);
+    color: #000000;
     padding: 1px;
     text-align: center;
     font-weight: 400;
@@ -171,4 +176,27 @@ body {
     .apresentacao__conteudo {
         width: auto;
     }
+}
+
+.apresentacao__links__ZAP:hover {
+    background-color: #ADDCED;
+    padding: 3%;
+}
+
+.apresentacao__links__ZAP {
+    justify-content: center;
+    gap: 17px;
+    background-color: var(--cor-primaria);
+    display:flex;
+    width: 280px;
+    text-align: center;
+    border-radius: 25px;
+    border: 2px solid #ffffff;
+    font-size: 24px;
+    padding: 21.5px 0;
+    text-decoration: none;
+    color: #000000;
+    
+    font-family:'Krona One', sans-serif;
+    
 }
