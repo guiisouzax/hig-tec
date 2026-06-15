@@ -200,3 +200,32 @@ body {
     font-family:'Krona One', sans-serif;
     
 }
+
+.apresentacao__links__google:hover {
+    background-color: #ADDCED;
+    padding: 3%;
+}
+
+
+
+
+.apresentacao__links__google {
+    font-family:'Krona One', sans-serif;
+    justify-content: center;
+    gap: 17px;
+    background-color: var(--cor-primaria);
+    display:flex;
+    width: 280px;
+    text-align: center;
+    border-radius: 25px;
+    border: 2px solid #ffffff;
+    font-size: 24px;
+    padding: 21.5px 0;
+    text-decoration: none;
+    color: #000000;
+}
+
+
+.logo-google {
+    width: 40px;
+}
